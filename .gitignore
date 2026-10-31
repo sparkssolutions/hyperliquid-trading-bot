@@ -1,0 +1,32 @@
+# Secrets
+.env
+live_config.json
+google_creds.json
+
+# Runtime state
+.bot.lock
+.telegram_offset
+
+# State files
+paper_state.json
+paper_state.json.lock
+trade_log.json
+trade_log.json.lock
+veto_log.json
+veto_log.json.lock
+live_state.json
+live_trade_log.json
+sheets_queue.json
+recommendations.json
+
+# Logs
+*.log
+nohup.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
